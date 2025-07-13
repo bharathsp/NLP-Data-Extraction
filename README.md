@@ -110,6 +110,7 @@ For each article text, compute the following 14 metrics:
 │   └── ...
 ├── text_analysis.py
 ├── README.md
+├── Text_Analysis_Output.xlsx
 └── requirements.txt
 ```
 
