@@ -83,22 +83,10 @@ For each article text, compute the following 14 metrics:
    pip install -r requirements.txt
    ```
 
-2. Extract data from the URLs:
-
-   ```bash
-   python extract_articles.py
-   ```
-
-3. Run text analysis:
+2. Extract data from the URLs and perform Text Analysis and save output in **Text_Analysis_Output** Excel:
 
    ```bash
    python text_analysis.py
-   ```
-
-4. Export results to Excel:
-
-   ```bash
-   python generate_output.py
    ```
 
 ---
@@ -109,13 +97,18 @@ For each article text, compute the following 14 metrics:
 ├── Input.xlsx
 ├── Output Data Structure.xlsx
 ├── Text Analysis.docx
-├── extracted_articles/
-│   ├── 1001.txt
-│   ├── 1002.txt
+├── output_articles/
+│   ├── Netclan20241017.txt
+│   ├── Netclan20241018.txt
 │   └── ...
-├── extract_articles.py
+├── MasterDictionary/
+│   ├── negative-words.txt
+│   ├── positive-words.txt
+├── StopWords/
+│   ├── StopWords_Auditor.txt
+│   ├── StopWords_Currencies.txt
+│   └── ...
 ├── text_analysis.py
-├── generate_output.py
 ├── README.md
 └── requirements.txt
 ```
